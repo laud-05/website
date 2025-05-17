@@ -1,0 +1,225 @@
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body
+{
+     width:  100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.container
+{
+      width: 100%;
+     height: 100vh;
+     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3));
+     position: relative;
+     overflow: hidden;
+     cursor: pointer;
+     max-width: 100%;
+     padding: 50px;
+     text-align: center;
+}
+.bg-video{
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+     /* object-fit: cover; */
+     filter: blur(5px);
+     -webkit-filter: blur(5px);
+}
+h2{
+     color:  #f8f0f0;
+     font-size: 160px;
+     font-weight: 5rem;
+     margin-bottom: 150px;
+     margin-top: 100px;
+     /* margin-bottom: 20px; */
+     /* text-align: center; */
+}
+ .opt{
+    width: 350px;
+    /* margin: 0 70px; */
+     margin-bottom: 25px;
+    margin-top: 75px;
+
+  
+  }
+.option {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 200px;
+}
+  #question {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    #options button {
+      display: block;
+      justify-content: center;
+      width: 500px;
+      margin: 10px 650px;
+      padding: 12px;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #00bfa6;
+      color: white;
+      transition: background 0.3s;
+      /* margin-top: 200px; */
+    }
+    #options button.selected {
+      background: #00856c;
+      color: black;
+    }
+    #options button:hover:not(.selected) {
+      background: #009b87;
+    }
+    /* .btn {
+      padding: 10px 20px;
+      margin: 10px 5px 0;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #007bff;
+      color: white;
+      transition: background 0.3s;
+    } */
+/* input[type="radio"]
+{
+        width: 15px;
+    height: 15px;
+    transform: scale(1.2); 
+    margin-right: 10px; 
+    cursor: pointer; 
+} */
+.btn {
+     background: #00bfa6;
+     color: white;
+     border: none;
+     padding: 14px 48px;
+     margin: 0 45px;
+     font-size: 18px;
+     border-radius: 20px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+     box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+     margin-top: 25px;
+     margin-right: 20px;
+   }
+    button:hover{
+     background:  #00856c;
+   }
+   button.selected {
+  background-color: #ffcc00 !important;
+  color: black;
+}
+ .btn:disabled {
+      background: #06f6ca;
+      cursor: not-allowed;
+    }
+    p{
+      font-size: 45px;
+      color:#f8f0f0 ;
+    }
+    p span{
+      color:#00856c ;
+    }
+
+    /* For tablets and below */
+/* @media (max-width: 900px) {
+  .container {
+    max-width: 95vw;
+    padding: 20px;
+  }
+  #options button {
+    width: 90vw;
+    max-width: 100%;
+    font-size: 1.1rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+} */
+
+/* For mobile devices */
+@media (max-width: 900px) {
+  .container {
+    padding: 10px;
+  }
+  h2 {
+   font-size: 50px;
+    font-weight: 2rem;
+    margin-top: 60px;      /* Add this */
+    margin-bottom: 180px; 
+  }
+  .opt{
+    margin-bottom: 25px;
+    margin-top: 35px;
+    width: 500px;
+    margin: 10px 150px;
+  }
+  #options button {
+    width: 100%;
+    margin: 0 150px;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 6px 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .btn {
+  
+    padding: 10px 40px;
+    font-size: 1rem;
+    margin: 10px 5px 0;
+  }
+}
+@media (max-width: 600px) 
+{
+  h2{
+    font-size: 25px;
+  }
+ 
+}
+
+/* For very small screens */
+@media (max-width: 400px) {
+  h2 {
+    font-size: 1rem;
+  }
+  .opt{
+    margin:0 50px ;
+    width: 300px;
+    font-size: 50px;
+  }
+  #options button {
+    font-size: 0.9rem;
+    /* padding: 8px; */
+  }
+}
+
+    
+   

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+  <style>
+    /* Basic styles for demo */
+    /* body {
+      font-family: Arial, sans-serif;
+      background: #f4f6fc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    } */
+    /* .container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+    } */
+    /* #question {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    #options button {
+      display: block;
+      width: 100%;
+      margin: 8px 0;
+      padding: 12px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #00bfa6;
+      color: white;
+      transition: background 0.3s;
+    }
+    #options button.selected {
+      background: #ffcc00;
+      color: black;
+    }
+    #options button:hover:not(.selected) {
+      background: #009b87;
+    }
+    .btn {
+      padding: 10px 20px;
+      margin: 10px 5px 0;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #007bff;
+      color: white;
+      transition: background 0.3s;
+    } */
+    /* .btn:disabled {
+      background: #cccccc;
+      cursor: not-allowed;
+    } */
+  </style>
+</head>
+<body>
+  <div class="container" id="quiz-container">
+       <div class="bg-video">
+               <video src="../Q&A/13503165_3840_2160_30fps.mp4" muted loop autoplay plays-inline repeat background></video>
+          </div>
+    <h2 id="question">Loading question...</h2>
+    <div class="opt">
+      <div id="options"></div>
+    </div>
+    <button id="prevBtn" class="btn" disabled>Previous</button>
+    <button id="nextBtn" class="btn" disabled>Next</button>
+  </div>
+
+  <script>
+    const selectedSubject = localStorage.getItem("selectedSubject");
+
+    if (!selectedSubject) {
+      alert("No subject selected!");
+    } else {
+      fetch("question.json")
+        .then(res => {
+          if (!res.ok) throw new Error("Network response not ok");
+          return res.json();
+        })
+        .then(data => {
+          const allQuestions = data[selectedSubject];
+          if (!allQuestions) {
+            alert("No questions found for subject: " + selectedSubject);
+            return;
+          }
+          const questions = shuffle([...allQuestions]).slice(0, 15);
+          startQuiz(questions);
+        })
+        .catch(err => {
+          console.error("Failed to load questions:", err);
+          alert("Failed to load questions.");
+        });
+    }
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    function startQuiz(questions) {
+      let current = 0;
+      const answers = new Array(questions.length).fill(null);
+
+      const questionEl = document.getElementById("question");
+      const optionsEl = document.getElementById("options");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+
+      function loadQuestion() {
+        const q = questions[current];
+        questionEl.textContent = `Question ${current + 1} of ${questions.length}: ${q.question}`;
+
+        optionsEl.innerHTML = "";
+        const selectedAnswer = answers[current];
+
+        q.options.forEach(opt => {
+          const btn = document.createElement("button");
+          btn.textContent = opt;
+          btn.classList.toggle("selected", opt === selectedAnswer);
+          btn.onclick = () => {
+            answers[current] = opt;
+            nextBtn.disabled = false;
+
+            Array.from(optionsEl.children).forEach(b => b.classList.remove("selected"));
+            btn.classList.add("selected");
+          };
+          optionsEl.appendChild(btn);
+        });
+
+        prevBtn.disabled = current === 0;
+        nextBtn.textContent = current === questions.length - 1 ? "Finish" : "Next";
+        nextBtn.disabled = answers[current] === null;
+      }
+
+      nextBtn.onclick = () => {
+        current++;
+        if (current < questions.length) {
+          loadQuestion();
+        } else {
+          showResults();
+        }
+      };
+
+      prevBtn.onclick = () => {
+        if (current > 0) {
+          current--;
+          loadQuestion();
+        }
+      };
+
+      function showResults() {
+        let score = 0;
+        answers.forEach((ans, i) => {
+          if (ans === questions[i].answer) score++;
+        });
+
+        document.getElementById("quiz-container").innerHTML = `
+          <h2>Quiz Finished!</h2>
+          <p>Your score: ${score} / ${questions.length}<br><span>Weldone! see you next time</span></p>
+        `;
+      }
+
+      loadQuestion();
+    }
+  </script>
+</body>
+</html>

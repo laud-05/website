@@ -1,0 +1,154 @@
+{
+  "java": [
+    {
+      "question": "Which method is the entry point of a Java program?",
+      "options": ["start()", "run()", "main()", "init()"],
+      "answer": "main()"
+    },
+    {
+      "question": "What is bytecode in Java?",
+      "options": ["Code run by JVM", "Code written by user", "Code for compiler", "None of the above"],
+      "answer": "Code run by JVM"
+    },
+    {
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": ["this", "import", "extends", "inherits"],
+      "answer": "extends"
+    },
+    {
+      "question": "What is JVM in Java?",
+      "options": ["Java Variable Method", "Java Virtual Machine", "Java Visual Model", "Java Version Manager"],
+      "answer": "Java Virtual Machine"
+    },
+    {
+      "question": "Which access modifier makes a member accessible within its own package?",
+      "options": ["private", "public", "protected", "default"],
+      "answer": "default"
+    },
+    {
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": ["true", "false", "null", "0"],
+      "answer": "false"
+    },
+    {
+      "question": "Which of these is not a Java primitive type?",
+      "options": ["int", "char", "boolean", "String"],
+      "answer": "String"
+    },
+    {
+      "question": "Which keyword is used to prevent inheritance?",
+      "options": ["private", "protected", "static", "final"],
+      "answer": "final"
+    },
+    {
+      "question": "What is the size of an `int` in Java?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on system"],
+      "answer": "4 bytes"
+    },
+    {
+      "question": "Which loop is guaranteed to run at least once?",
+      "options": ["for", "while", "do-while", "foreach"],
+      "answer": "do-while"
+    },
+    {
+      "question": "Which of these is not a Java feature?",
+      "options": ["Object-oriented", "Architecture neutral", "Interpreted", "Pointer arithmetic"],
+      "answer": "Pointer arithmetic"
+    },
+    {
+      "question": "What does `super` keyword refer to?",
+      "options": ["Base class constructor", "Current object", "Parent class", "Static method"],
+      "answer": "Parent class"
+    },
+    {
+      "question": "Which exception is thrown when a division by zero occurs?",
+      "options": ["ArithmeticException", "IOException", "NullPointerException", "NumberFormatException"],
+      "answer": "ArithmeticException"
+    },
+    {
+      "question": "What is method overloading?",
+      "options": ["Same method name with different parameters", "Overriding superclass method", "Multiple classes with same method", "Static methods only"],
+      "answer": "Same method name with different parameters"
+    },
+    {
+      "question": "What is method overriding?",
+      "options": ["Two methods with same name in same class", "Subclass redefining superclass method", "Static method redefinition", "Private method access"],
+      "answer": "Subclass redefining superclass method"
+    },
+    {
+      "question": "Which package contains the Scanner class?",
+      "options": ["java.io", "java.util", "java.net", "java.lang"],
+      "answer": "java.util"
+    },
+    {
+      "question": "Which is not a loop structure in Java?",
+      "options": ["for", "do", "repeat", "while"],
+      "answer": "repeat"
+    },
+    {
+      "question": "How do you declare a constant in Java?",
+      "options": ["const", "constant", "static final", "final static"],
+      "answer": "static final"
+    },
+    {
+      "question": "What is the purpose of garbage collection in Java?",
+      "options": ["Manage memory", "Load classes", "Compile code", "Handle exceptions"],
+      "answer": "Manage memory"
+    },
+    {
+      "question": "Which interface provides capability to store key-value pairs?",
+      "options": ["List", "Map", "Set", "Collection"],
+      "answer": "Map"
+    },
+    {
+      "question": "Which method can be used to find the length of a string?",
+      "options": ["length()", "size()", "getLength()", "count()"],
+      "answer": "length()"
+    },
+    {
+      "question": "What is multithreading?",
+      "options": ["Running multiple programs", "Running multiple threads", "Running single thread", "None"],
+      "answer": "Running multiple threads"
+    },
+    {
+      "question": "Which class is the root of Java class hierarchy?",
+      "options": ["Main", "Base", "Object", "Class"],
+      "answer": "Object"
+    },
+    {
+      "question": "Which exception is checked at compile time?",
+      "options": ["IOException", "ArithmeticException", "NullPointerException", "ArrayIndexOutOfBoundsException"],
+      "answer": "IOException"
+    },
+    {
+      "question": "Which collection class is synchronized?",
+      "options": ["ArrayList", "Vector", "HashSet", "LinkedList"],
+      "answer": "Vector"
+    },
+    {
+      "question": "How do you start a thread in Java?",
+      "options": ["run()", "start()", "execute()", "begin()"],
+      "answer": "start()"
+    },
+    {
+      "question": "What is the return type of the main method?",
+      "options": ["void", "int", "String", "boolean"],
+      "answer": "void"
+    },
+    {
+      "question": "What does the `static` keyword mean?",
+      "options": ["Method is constant", "Belongs to class", "Not modifiable", "Can’t be inherited"],
+      "answer": "Belongs to class"
+    },
+    {
+      "question": "Which operator is used for object comparison?",
+      "options": ["==", "!=", "equals()", "==="],
+      "answer": "equals()"
+    },
+    {
+      "question": "What does the `this` keyword refer to?",
+      "options": ["Parent class", "Current object", "Child class", "Static variable"],
+      "answer": "Current object"
+    }
+  ]
+}
