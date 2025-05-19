@@ -1,0 +1,778 @@
+{
+  "java": [
+    {
+      "question": "Which method is the entry point of a Java program?",
+      "options": ["start()", "run()", "main()", "init()"],
+      "answer": "main()"
+    },
+    {
+      "question": "What is bytecode in Java?",
+      "options": ["Code run by JVM", "Code written by user", "Code for compiler", "None of the above"],
+      "answer": "Code run by JVM"
+    },
+    {
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": ["this", "import", "extends", "inherits"],
+      "answer": "extends"
+    },
+    {
+      "question": "What is JVM in Java?",
+      "options": ["Java Variable Method", "Java Virtual Machine", "Java Visual Model", "Java Version Manager"],
+      "answer": "Java Virtual Machine"
+    },
+    {
+      "question": "Which access modifier makes a member accessible within its own package?",
+      "options": ["private", "public", "protected", "default"],
+      "answer": "default"
+    },
+    {
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": ["true", "false", "null", "0"],
+      "answer": "false"
+    },
+    {
+      "question": "Which of these is not a Java primitive type?",
+      "options": ["int", "char", "boolean", "String"],
+      "answer": "String"
+    },
+    {
+      "question": "Which keyword is used to prevent inheritance?",
+      "options": ["private", "protected", "static", "final"],
+      "answer": "final"
+    },
+    {
+      "question": "What is the size of an `int` in Java?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on system"],
+      "answer": "4 bytes"
+    },
+    {
+      "question": "Which loop is guaranteed to run at least once?",
+      "options": ["for", "while", "do-while", "foreach"],
+      "answer": "do-while"
+    },
+    {
+      "question": "Which of these is not a Java feature?",
+      "options": ["Object-oriented", "Architecture neutral", "Interpreted", "Pointer arithmetic"],
+      "answer": "Pointer arithmetic"
+    },
+    {
+      "question": "What does `super` keyword refer to?",
+      "options": ["Base class constructor", "Current object", "Parent class", "Static method"],
+      "answer": "Parent class"
+    },
+    {
+      "question": "Which exception is thrown when a division by zero occurs?",
+      "options": ["ArithmeticException", "IOException", "NullPointerException", "NumberFormatException"],
+      "answer": "ArithmeticException"
+    },
+    {
+      "question": "What is method overloading?",
+      "options": ["Same method name with different parameters", "Overriding superclass method", "Multiple classes with same method", "Static methods only"],
+      "answer": "Same method name with different parameters"
+    },
+    {
+      "question": "What is method overriding?",
+      "options": ["Two methods with same name in same class", "Subclass redefining superclass method", "Static method redefinition", "Private method access"],
+      "answer": "Subclass redefining superclass method"
+    },
+    {
+      "question": "Which package contains the Scanner class?",
+      "options": ["java.io", "java.util", "java.net", "java.lang"],
+      "answer": "java.util"
+    },
+    {
+      "question": "Which is not a loop structure in Java?",
+      "options": ["for", "do", "repeat", "while"],
+      "answer": "repeat"
+    },
+    {
+      "question": "How do you declare a constant in Java?",
+      "options": ["const", "constant", "static final", "final static"],
+      "answer": "static final"
+    },
+    {
+      "question": "What is the purpose of garbage collection in Java?",
+      "options": ["Manage memory", "Load classes", "Compile code", "Handle exceptions"],
+      "answer": "Manage memory"
+    },
+    {
+      "question": "Which interface provides capability to store key-value pairs?",
+      "options": ["List", "Map", "Set", "Collection"],
+      "answer": "Map"
+    },
+    {
+      "question": "Which method can be used to find the length of a string?",
+      "options": ["length()", "size()", "getLength()", "count()"],
+      "answer": "length()"
+    },
+    {
+      "question": "What is multithreading?",
+      "options": ["Running multiple programs", "Running multiple threads", "Running single thread", "None"],
+      "answer": "Running multiple threads"
+    },
+    {
+      "question": "Which class is the root of Java class hierarchy?",
+      "options": ["Main", "Base", "Object", "Class"],
+      "answer": "Object"
+    },
+    {
+      "question": "Which exception is checked at compile time?",
+      "options": ["IOException", "ArithmeticException", "NullPointerException", "ArrayIndexOutOfBoundsException"],
+      "answer": "IOException"
+    },
+    {
+      "question": "Which collection class is synchronized?",
+      "options": ["ArrayList", "Vector", "HashSet", "LinkedList"],
+      "answer": "Vector"
+    },
+    {
+      "question": "How do you start a thread in Java?",
+      "options": ["run()", "start()", "execute()", "begin()"],
+      "answer": "start()"
+    },
+    {
+      "question": "What is the return type of the main method?",
+      "options": ["void", "int", "String", "boolean"],
+      "answer": "void"
+    },
+    {
+      "question": "What does the `static` keyword mean?",
+      "options": ["Method is constant", "Belongs to class", "Not modifiable", "Can’t be inherited"],
+      "answer": "Belongs to class"
+    },
+    {
+      "question": "Which operator is used for object comparison?",
+      "options": ["==", "!=", "equals()", "==="],
+      "answer": "equals()"
+    },
+    {
+      "question": "What does the `this` keyword refer to?",
+      "options": ["Parent class", "Current object", "Child class", "Static variable"],
+      "answer": "Current object"
+    }
+  ],
+  "python": [
+   
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["func", "def", "function", "lambda"],
+    "answer": "def"
+  },
+  {
+    "question": "What is the output of len('Hello')?",
+    "options": ["4", "5", "6", "None"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of these is a valid list declaration?",
+    "options": ["list = {}", "list = []", "list = ()", "list = <>"],
+    "answer": "list = []"
+  },
+  {
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": ["^", "**", "//", "exp()"],
+    "answer": "**"
+  },
+  {
+    "question": "What does the 'break' statement do?",
+    "options": ["Skips current loop", "Ends current loop", "Repeats loop", "Starts loop"],
+    "answer": "Ends current loop"
+  },
+  {
+    "question": "What data type is returned by input() function?",
+    "options": ["int", "float", "str", "bool"],
+    "answer": "str"
+  },
+  {
+    "question": "Which method adds an item to a list?",
+    "options": ["add()", "append()", "insert()", "push()"],
+    "answer": "append()"
+  },
+  {
+    "question": "What is the output of 10 // 3?",
+    "options": ["3.33", "3", "4", "3.0"],
+    "answer": "3"
+  },
+  {
+    "question": "Which of the following is immutable?",
+    "options": ["list", "dict", "set", "tuple"],
+    "answer": "tuple"
+  },
+  {
+    "question": "Which keyword is used to create a class?",
+    "options": ["function", "object", "class", "def"],
+    "answer": "class"
+  },
+  {
+    "question": "How do you write comments in Python?",
+    "options": ["// comment", "# comment", "<!-- comment -->", "-- comment"],
+    "answer": "# comment"
+  },
+  {
+    "question": "What will `type(3.0)` return?",
+    "options": ["int", "str", "float", "decimal"],
+    "answer": "float"
+  },
+  {
+    "question": "Which function is used to convert string to integer?",
+    "options": ["int()", "str()", "float()", "convert()"],
+    "answer": "int()"
+  },
+  {
+    "question": "What is the output of bool('False')?",
+    "options": ["False", "True", "None", "0"],
+    "answer": "True"
+  },
+  {
+    "question": "What is used to handle exceptions?",
+    "options": ["catch", "handle", "try-except", "raise-catch"],
+    "answer": "try-except"
+  },
+  {
+    "question": "What is the output of `2 * 3 ** 2`?",
+    "options": ["36", "18", "12", "None"],
+    "answer": "18"
+  },
+  {
+    "question": "What is the keyword to define an anonymous function?",
+    "options": ["lambda", "def", "func", "anon"],
+    "answer": "lambda"
+  },
+  {
+    "question": "Which method is used to get the number of items in a list?",
+    "options": ["count()", "index()", "length()", "len()"],
+    "answer": "len()"
+  },
+  {
+    "question": "Which keyword is used to inherit a class?",
+    "options": ["extends", "inherits", "super", "class"],
+    "answer": "class"
+  },
+  {
+    "question": "What will `5 % 2` return?",
+    "options": ["2", "0", "1", "3"],
+    "answer": "1"
+  },
+  {
+    "question": "What is the correct file extension for Python files?",
+    "options": [".py", ".pt", ".pyt", ".python"],
+    "answer": ".py"
+  },
+  {
+    "question": "Which data structure allows duplicate values?",
+    "options": ["set", "dict", "list", "tuple"],
+    "answer": "list"
+  },
+  {
+    "question": "What does `range(5)` produce?",
+    "options": ["[1,2,3,4,5]", "[0,1,2,3,4]", "[0,1,2,3,4,5]", "[1,2,3,4]"],
+    "answer": "[0,1,2,3,4]"
+  },
+  {
+    "question": "Which built-in function returns the highest value?",
+    "options": ["max()", "high()", "top()", "maxval()"],
+    "answer": "max()"
+  },
+  {
+    "question": "Which of the following is not a keyword in Python?",
+    "options": ["True", "None", "define", "False"],
+    "answer": "define"
+  },
+  {
+    "question": "How do you check if 5 is equal to 5?",
+    "options": ["5 = 5", "5 == 5", "5 === 5", "5 => 5"],
+    "answer": "5 == 5"
+  },
+  {
+    "question": "How do you import a module?",
+    "options": ["include", "require", "import", "using"],
+    "answer": "import"
+  },
+  {
+    "question": "What will `print('a' * 3)` output?",
+    "options": ["aaa", "a3", "aa", "error"],
+    "answer": "aaa"
+  },
+  {
+    "question": "Which keyword exits a loop?",
+    "options": ["stop", "exit", "break", "continue"],
+    "answer": "break"
+  },
+  {
+    "question": "What is the result of `bool(0)`?",
+    "options": ["True", "False", "None", "0"],
+    "answer": "False"
+  }
+],
+
+"javascript": 
+[
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": ["var", "int", "float", "char"],
+    "answer": "var"
+  },
+  {
+    "question": "What is the correct file extension for JavaScript files?",
+    "options": [".js", ".java", ".script", ".jv"],
+    "answer": ".js"
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": ["//", "#", "<!--", "/*"],
+    "answer": "//"
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "options": ["Microsoft", "Google", "Netscape", "Oracle"],
+    "answer": "Netscape"
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": ["function = myFunc()", "function myFunc()", "def myFunc()", "create myFunc()"],
+    "answer": "function myFunc()"
+  },
+  {
+    "question": "Which keyword declares a constant in JavaScript?",
+    "options": ["let", "var", "const", "constant"],
+    "answer": "const"
+  },
+  {
+    "question": "What will `typeof 'hello'` return?",
+    "options": ["string", "text", "char", "word"],
+    "answer": "string"
+  },
+  {
+    "question": "How do you write an alert box in JavaScript?",
+    "options": ["msg()", "alert()", "message()", "popup()"],
+    "answer": "alert()"
+  },
+  {
+    "question": "How can you add a comment in JavaScript?",
+    "options": ["<!-- comment -->", "// comment", "# comment", "/* comment */"],
+    "answer": "// comment"
+  },
+  {
+    "question": "Which loop is guaranteed to run at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "question": "What does the `===` operator do?",
+    "options": ["Checks value only", "Assigns value", "Checks value and type", "Compares objects"],
+    "answer": "Checks value and type"
+  },
+  {
+    "question": "How do you write an if statement in JavaScript?",
+    "options": ["if i == 5 then", "if (i == 5)", "if i = 5", "if (i === 5) then"],
+    "answer": "if (i == 5)"
+  },
+  {
+    "question": "What is the result of `10 + '5'`?",
+    "options": ["15", "105", "NaN", "Error"],
+    "answer": "105"
+  },
+  {
+    "question": "Which built-in method combines two arrays?",
+    "options": ["concat()", "combine()", "append()", "merge()"],
+    "answer": "concat()"
+  },
+  {
+    "question": "How do you round a number down in JavaScript?",
+    "options": ["Math.ceil()", "Math.round()", "Math.floor()", "Math.down()"],
+    "answer": "Math.floor()"
+  },
+  {
+    "question": "Which of these is not a JavaScript data type?",
+    "options": ["Number", "Boolean", "Float", "Undefined"],
+    "answer": "Float"
+  },
+  {
+    "question": "What will `NaN === NaN` return?",
+    "options": ["true", "false", "NaN", "undefined"],
+    "answer": "false"
+  },
+  {
+    "question": "Which object is the root of all JavaScript objects?",
+    "options": ["window", "global", "Object", "Base"],
+    "answer": "Object"
+  },
+  {
+    "question": "Which method converts a string to an integer?",
+    "options": ["parseInt()", "Number()", "toString()", "int()"],
+    "answer": "parseInt()"
+  },
+  {
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": ["onmouseover", "onchange", "onclick", "onmouseclick"],
+    "answer": "onclick"
+  },
+  {
+    "question": "How do you define an array in JavaScript?",
+    "options": ["array = {}", "array = []", "array = ()", "array = <>"],
+    "answer": "array = []"
+  },
+  {
+    "question": "How do you check the length of an array?",
+    "options": ["array.length()", "array.size", "array.length", "length(array)"],
+    "answer": "array.length"
+  },
+  {
+    "question": "What is the purpose of `return` in a function?",
+    "options": ["End the function", "Print output", "Send value back", "None of the above"],
+    "answer": "Send value back"
+  },
+  {
+    "question": "What will `typeof null` return?",
+    "options": ["object", "null", "undefined", "boolean"],
+    "answer": "object"
+  },
+  {
+    "question": "Which symbol is used for OR logic?",
+    "options": ["&&", "||", "!", "&|"],
+    "answer": "||"
+  },
+  {
+    "question": "Which built-in object lets you work with dates?",
+    "options": ["Calendar", "Time", "Date", "Clock"],
+    "answer": "Date"
+  },
+  {
+    "question": "Which method removes the last element of an array?",
+    "options": ["shift()", "pop()", "remove()", "splice()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "Which of these is a falsy value?",
+    "options": ["0", "true", "[]", "'hello'"],
+    "answer": "0"
+  },
+  {
+    "question": "How do you declare a function expression?",
+    "options": ["function myFunc() {}", "let myFunc = function() {}", "def myFunc() {}", "func myFunc() {}"],
+    "answer": "let myFunc = function() {}"
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "A CSS property",
+      "An object with private methods",
+      "A function inside another function that can access the outer function’s variables",
+      "A JavaScript loop"
+    ],
+    "answer": "A function inside another function that can access the outer function’s variables"
+  }
+],
+"html":
+ [
+  {
+    "question": "What does HTML stand for?",
+    "options": ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "Hyper Text Marketing Language", "Hyper Text Markup Leveler"],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": ["<break>", "<br>", "<lb>", "<line>"],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which tag is used to make text bold in HTML?",
+    "options": ["<bold>", "<b>", "<strong>", "<boldtext>"],
+    "answer": "<b>"
+  },
+  {
+    "question": "What is the correct HTML element for the largest heading?",
+    "options": ["<heading>", "<h1>", "<head>", "<h6>"],
+    "answer": "<h1>"
+  },
+  {
+    "question": "Which attribute is used to define inline styles?",
+    "options": ["style", "class", "font", "styles"],
+    "answer": "style"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "question": "Which attribute is used in HTML to display an image?",
+    "options": ["src", "href", "link", "file"],
+    "answer": "src"
+  },
+  {
+    "question": "What is the correct HTML element for inserting a horizontal line?",
+    "options": ["<line>", "<hr>", "<hl>", "<break>"],
+    "answer": "<hr>"
+  },
+  {
+    "question": "Which element is used for inserting a comment in HTML?",
+    "options": ["//", "/* */", "<!-- -->", "#"],
+    "answer": "<!-- -->"
+  },
+  {
+    "question": "Which tag is used to create a numbered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<list>"],
+    "answer": "<ol>"
+  },
+  {
+    "question": "What does the <img> tag require to display an image?",
+    "options": ["href", "alt", "src", "link"],
+    "answer": "src"
+  },
+  {
+    "question": "How can you open a link in a new tab?",
+    "options": ["target='open'", "target='_blank'", "target='new'", "href='blank'"],
+    "answer": "target='_blank'"
+  },
+  {
+    "question": "Which HTML tag is used to create a table?",
+    "options": ["<table>", "<tab>", "<tbl>", "<grid>"],
+    "answer": "<table>"
+  },
+  {
+    "question": "Which HTML element defines the title of a document?",
+    "options": ["<title>", "<head>", "<meta>", "<header>"],
+    "answer": "<title>"
+  },
+  {
+    "question": "Where is the correct place to insert a CSS link?",
+    "options": ["At the bottom", "Inside <body>", "Inside <head>", "Before <html>"],
+    "answer": "Inside <head>"
+  },
+  {
+    "question": "Which input type allows you to select multiple options?",
+    "options": ["checkbox", "radio", "text", "range"],
+    "answer": "checkbox"
+  },
+  {
+    "question": "Which tag creates a list item?",
+    "options": ["<list>", "<item>", "<li>", "<ul>"],
+    "answer": "<li>"
+  },
+  {
+    "question": "What tag is used to define an unordered list?",
+    "options": ["<ul>", "<ol>", "<list>", "<li>"],
+    "answer": "<ul>"
+  },
+  {
+    "question": "What tag is used to insert JavaScript into an HTML page?",
+    "options": ["<js>", "<script>", "<javascript>", "<code>"],
+    "answer": "<script>"
+  },
+  {
+    "question": "What is the default value of the 'type' attribute in a <button> tag?",
+    "options": ["button", "submit", "reset", "none"],
+    "answer": "submit"
+  },
+  {
+    "question": "Which tag is used to define a form in HTML?",
+    "options": ["<form>", "<input>", "<fieldset>", "<section>"],
+    "answer": "<form>"
+  },
+  {
+    "question": "Which attribute specifies an alternate text for an image?",
+    "options": ["alt", "title", "caption", "text"],
+    "answer": "alt"
+  },
+  {
+    "question": "What tag is used to group inline-elements?",
+    "options": ["<div>", "<section>", "<span>", "<group>"],
+    "answer": "<span>"
+  },
+  {
+    "question": "What HTML tag is used to embed a video?",
+    "options": ["<movie>", "<media>", "<video>", "<play>"],
+    "answer": "<video>"
+  },
+  {
+    "question": "Which tag is used for a table row?",
+    "options": ["<th>", "<tr>", "<td>", "<row>"],
+    "answer": "<tr>"
+  },
+  {
+    "question": "Which tag is used for a table data cell?",
+    "options": ["<td>", "<tr>", "<th>", "<cell>"],
+    "answer": "<td>"
+  },
+  {
+    "question": "Which attribute disables an HTML input field?",
+    "options": ["disable", "readonly", "hidden", "disabled"],
+    "answer": "disabled"
+  },
+  {
+    "question": "Which HTML tag is used to play audio?",
+    "options": ["<sound>", "<audio>", "<mp3>", "<music>"],
+    "answer": "<audio>"
+  },
+  {
+    "question": "Which tag is used to make text italic?",
+    "options": ["<italic>", "<em>", "<i>", "Both <em> and <i>"],
+    "answer": "Both <em> and <i>"
+  },
+  {
+    "question": "Which tag is used to insert a dropdown list?",
+    "options": ["<input type='dropdown'>", "<select>", "<dropdown>", "<optionlist>"],
+    "answer": "<select>"
+  }
+],
+"css": [
+  {
+    "question": "What does CSS stand for?",
+    "options": ["Computer Style Sheets", "Creative Style Syntax", "Cascading Style Sheets", "Colorful Style Sheets"],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which HTML tag is used to link an external CSS file?",
+    "options": ["<style>", "<link>", "<script>", "<css>"],
+    "answer": "<link>"
+  },
+  {
+    "question": "Which property controls the text size?",
+    "options": ["font-style", "text-size", "font-size", "text-style"],
+    "answer": "font-size"
+  },
+  {
+    "question": "Which property changes the background color?",
+    "options": ["color", "bgcolor", "background-color", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": ["font-weight: bold;", "text-style: bold;", "font: bold;", "bold: true;"],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "Which CSS property sets the space between lines?",
+    "options": ["line-spacing", "line-height", "spacing", "text-spacing"],
+    "answer": "line-height"
+  },
+  {
+    "question": "Which symbol is used for class selectors in CSS?",
+    "options": ["#", ".", "!", "$"],
+    "answer": "."
+  },
+  {
+    "question": "Which symbol is used for ID selectors in CSS?",
+    "options": ["#", ".", "*", "!"],
+    "answer": "#"
+  },
+  {
+    "question": "What is the default position value in CSS?",
+    "options": ["relative", "static", "absolute", "fixed"],
+    "answer": "static"
+  },
+  {
+    "question": "How do you center a block element horizontally?",
+    "options": ["text-align: center;", "margin: auto;", "align: center;", "padding: center;"],
+    "answer": "margin: auto;"
+  },
+  {
+    "question": "Which CSS property is used to make text italic?",
+    "options": ["font-style", "text-style", "italic", "style"],
+    "answer": "font-style"
+  },
+  {
+    "question": "What does `display: none;` do?",
+    "options": ["Hides the element", "Removes background", "Makes text invisible", "Changes display mode"],
+    "answer": "Hides the element"
+  },
+  {
+    "question": "Which property is used to add space inside an element?",
+    "options": ["margin", "padding", "border", "spacing"],
+    "answer": "padding"
+  },
+  {
+    "question": "Which property adds space outside an element?",
+    "options": ["margin", "padding", "border-spacing", "gap"],
+    "answer": "margin"
+  },
+  {
+    "question": "What does `z-index` control?",
+    "options": ["Text indentation", "Layer order", "Font size", "Element width"],
+    "answer": "Layer order"
+  },
+  {
+    "question": "What unit is used for relative font sizing?",
+    "options": ["px", "em", "%", "pt"],
+    "answer": "em"
+  },
+  {
+    "question": "How do you make a list not show bullets?",
+    "options": ["list: none;", "text-decoration: none;", "list-style: none;", "decoration: none;"],
+    "answer": "list-style: none;"
+  },
+  {
+    "question": "Which property controls the height of an element?",
+    "options": ["height", "element-height", "max-height", "line-height"],
+    "answer": "height"
+  },
+  {
+    "question": "What CSS property makes an element float to the left?",
+    "options": ["float: left;", "position: left;", "align: left;", "display: left;"],
+    "answer": "float: left;"
+  },
+  {
+    "question": "Which CSS rule is used to select all elements?",
+    "options": ["#", ".", "*", "!"],
+    "answer": "*"
+  },
+  {
+    "question": "What is the correct syntax to change font in CSS?",
+    "options": ["font: Arial;", "font-family: Arial;", "font-face: Arial;", "text-font: Arial;"],
+    "answer": "font-family: Arial;"
+  },
+  {
+    "question": "Which property sets the border color?",
+    "options": ["border-style", "border-color", "border", "outline-color"],
+    "answer": "border-color"
+  },
+  {
+    "question": "How do you make text uppercase?",
+    "options": ["text-transform: uppercase;", "text-case: upper;", "font-case: uppercase;", "text-style: big;"],
+    "answer": "text-transform: uppercase;"
+  },
+  {
+    "question": "Which value for `position` makes an element stay fixed during scroll?",
+    "options": ["relative", "static", "absolute", "fixed"],
+    "answer": "fixed"
+  },
+  {
+    "question": "Which CSS value makes a box flexible in size?",
+    "options": ["auto", "fluid", "flex", "responsive"],
+    "answer": "flex"
+  },
+  {
+    "question": "Which property adds rounded corners?",
+    "options": ["border-style", "corner-radius", "border-radius", "outline-radius"],
+    "answer": "border-radius"
+  },
+  {
+    "question": "What does `overflow: hidden;` do?",
+    "options": ["Hides overflowing content", "Disables scrolling", "Hides element", "Wraps text"],
+    "answer": "Hides overflowing content"
+  },
+  {
+    "question": "How do you make a transition effect?",
+    "options": ["transition:", "animation:", "effect:", "fade:"],
+    "answer": "transition:"
+  },
+  {
+    "question": "Which layout uses rows and columns with areas?",
+    "options": ["flexbox", "float", "table", "grid"],
+    "answer": "grid"
+  },
+  {
+    "question": "Which CSS property controls how content is aligned in flexbox?",
+    "options": ["justify-content", "text-align", "flex-align", "content-align"],
+    "answer": "justify-content"
+  }
+]
+
+
+
+
+
+  
+}
+

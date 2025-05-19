@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+     rel="stylesheet"
+     />
+     <link rel="stylesheet" href="java.css">
+</head>
+<body>
+     <div class="back-to-home">
+          <a href="subSelect.html" class="btn">
+                <i class="ri-arrow-left-line"></i>
+          </a>
+     </div>
+     <div class="container">
+          <div class="main">
+               <!-- <video autoplay loop muted plays-inline repeat  class="bg_video">
+                    <source src="../Q&A/13503165_3840_2160_30fps.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+               </video> -->
+               <div class="into">
+                    <h1>Hey There!</h1>
+                    <p>Welcome to practical Q&A ON JAVA</p>
+                    <P>Note! this quiz consist of 15 questions <br> do your best <br> if ready click on the button</P>
+                   <a href="#"><button class="btn" onclick = "chooseSubject('java')">Start Quiz</button></a>
+     
+               </div>
+          </div>
+
+          
+     </div>
+
+     <script>
+          function chooseSubject(subject) {
+     localStorage.setItem("selectedSubject", subject); // store subject choice
+     window.location.href = "quiz.html"; // go to quiz
+}
+     </script>
+</body>
+</html>
